@@ -827,7 +827,7 @@
       </div>
     </div>
     <div class="cards-grid">
-      <div class="card">
+      <div class="card" onclick="showPage('intake', getNavTab('intake'))" style="cursor:pointer;" onmouseover="this.style.borderColor='var(--red)'" onmouseout="this.style.borderColor='var(--border)'">
         <div class="card-icon">📋</div>
         <h3>Complete Your Intake Form</h3>
         <p>Help Jason get to know you better — your family, interests, and what matters most in your home search.</p>
@@ -862,7 +862,7 @@
         <div class="timeline-item">
           <div class="timeline-dot done">✓</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showPage('tab-agency', getTabByPage('tab-agency')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Buyer Agency Agreement Signed →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-agency', getTabByPage('tab-agency')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Buyer Agency Agreement Signed →</a></h4>
             <p>You and Jason are officially working together.</p>
             <span class="step-tag tag-active">In Progress</span>
           </div>
@@ -878,7 +878,7 @@
         <div class="timeline-item">
           <div class="timeline-dot pending">·</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showPage('tab-offer', getTabByPage('tab-offer')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Offer Accepted →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-offer', getTabByPage('tab-offer')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Offer Accepted →</a></h4>
             <p>Checklist of activity between accepted offer and closing.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -886,7 +886,7 @@
         <div class="timeline-item">
           <div class="timeline-dot pending">·</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showPage('tab-inspection', getTabByPage('tab-inspection')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Inspection &amp; Appraisal →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-inspection', getTabByPage('tab-inspection')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Inspection &amp; Appraisal →</a></h4>
             <p>Track the inspection report, response, and appraisal.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -894,7 +894,7 @@
         <div class="timeline-item">
           <div class="timeline-dot pending">·</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showPage('tab-utilities', getTabByPage('tab-utilities')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Utilities →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-utilities', getTabByPage('tab-utilities')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Utilities →</a></h4>
             <p>Schedule your utilities.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -902,7 +902,7 @@
         <div class="timeline-item">
           <div class="timeline-dot pending">·</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showPage('tab-vendors', getTabByPage('tab-vendors')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Trusted Vendors →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-vendors', getTabByPage('tab-vendors')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Trusted Vendors →</a></h4>
             <p>Partners you might need help from along the way.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -910,7 +910,7 @@
         <div class="timeline-item" style="padding-bottom:0">
           <div class="timeline-dot pending">🏠</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showPage('tab-closing', getTabByPage('tab-closing')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Closing Day! →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-closing', getTabByPage('tab-closing')); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Closing Day! →</a></h4>
             <p>Keys in hand — welcome home.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -946,7 +946,7 @@
         <div class="timeline-item">
           <div class="timeline-dot done">✓</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showSection('tab-agency'); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Buyer Agency Agreement Signed →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-agency')"); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Buyer Agency Agreement Signed →</a></h4>
             <p>You and Jason are officially working together.</p>
             <span class="step-tag tag-active">In Progress</span>
           </div>
@@ -962,7 +962,7 @@
         <div class="timeline-item">
           <div class="timeline-dot pending">·</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showSection('tab-offer'); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Offer Accepted →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-offer')"); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Offer Accepted →</a></h4>
             <p>Checklist of activity between accepted offer and closing.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -970,7 +970,7 @@
         <div class="timeline-item">
           <div class="timeline-dot pending">·</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showSection('tab-inspection'); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Inspection &amp; Appraisal →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-inspection')"); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Inspection &amp; Appraisal →</a></h4>
             <p>Track the inspection report, response, and appraisal.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -978,7 +978,7 @@
         <div class="timeline-item">
           <div class="timeline-dot pending">·</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showSection('tab-utilities'); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Utilities →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-utilities')"); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Utilities →</a></h4>
             <p>Schedule your utilities.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -986,7 +986,7 @@
         <div class="timeline-item">
           <div class="timeline-dot pending">·</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showSection('tab-vendors'); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Trusted Vendors →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-vendors')"); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Trusted Vendors →</a></h4>
             <p>Partners you might need help from along the way.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -994,7 +994,7 @@
         <div class="timeline-item" style="padding-bottom:0">
           <div class="timeline-dot pending">🏠</div>
           <div class="timeline-content">
-            <h4><a href="#" onclick="showSection('tab-closing'); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Closing Day! →</a></h4>
+            <h4><a href="#" onclick="showSection('tab-closing')"); return false;" style="color:var(--black);text-decoration:none;border-bottom:1px dashed var(--border);transition:color 0.15s;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--black)'">Closing Day! →</a></h4>
             <p>Keys in hand — welcome home.</p>
             <span class="step-tag tag-pending">Upcoming</span>
           </div>
@@ -1213,7 +1213,7 @@
 
   <!-- BUYER AGENCY PAGE -->
   <div id="page-section-tab-agency" class="page">
-    <button class="back-btn" onclick="showPage('timeline', getNavTab('timeline'))">← Back to Timeline</button>
+    <button class="back-btn" onclick="showPage('dashboard', getNavTab('dashboard'))">← Back to Timeline</button>
     <div class="section-title">Buyer Agency Agreement</div>
     <p class="section-subtitle">Documents and information related to your buyer representation agreement with Jason.</p>
     <div id="hub2-agency"></div>
@@ -1226,7 +1226,7 @@
 
   <!-- PROPERTY TOURS PAGE -->
   <div id="page-section-tab-tours" class="page">
-    <button class="back-btn" onclick="showPage('timeline', getNavTab('timeline'))">← Back to Timeline</button>
+    <button class="back-btn" onclick="showPage('dashboard', getNavTab('dashboard'))">← Back to Timeline</button>
     <div class="section-title">Property Tours</div>
     <p class="section-subtitle">Schedule tours, track homes you've visited, and add notes after each showing.</p>
     <div class="card" style="padding:28px 32px;margin-bottom:24px;">
@@ -1277,7 +1277,7 @@
 
   <!-- OFFER ACCEPTED PAGE -->
   <div id="page-section-tab-offer" class="page">
-    <button class="back-btn" onclick="showPage('timeline', getNavTab('timeline'))">← Back to Timeline</button>
+    <button class="back-btn" onclick="showPage('dashboard', getNavTab('dashboard'))">← Back to Timeline</button>
     <div class="section-title">Offer Accepted</div>
     <p class="section-subtitle">Congratulations! Below is your checklist with key deadlines prior to closing.</p>
 
@@ -1446,7 +1446,7 @@
 
   <!-- INSPECTION & APPRAISAL PAGE -->
   <div id="page-section-tab-inspection" class="page">
-    <button class="back-btn" onclick="showPage('timeline', getNavTab('timeline'))">← Back to Timeline</button>
+    <button class="back-btn" onclick="showPage('dashboard', getNavTab('dashboard'))">← Back to Timeline</button>
     <div class="section-title">Inspection &amp; Appraisal</div>
     <p class="section-subtitle">Track the inspection report, response, and appraisal.</p>
 
@@ -1528,7 +1528,7 @@
 
   <!-- UTILITIES PAGE -->
   <div id="page-section-tab-utilities" class="page">
-    <button class="back-btn" onclick="showPage('timeline', getNavTab('timeline'))">← Back to Timeline</button>
+    <button class="back-btn" onclick="showPage('dashboard', getNavTab('dashboard'))">← Back to Timeline</button>
     <div class="section-title">Utilities</div>
     <p class="section-subtitle">Contact your utility providers before closing day. Select your community below to find the right contacts.</p>
 
@@ -1732,7 +1732,7 @@
 
   <!-- TRUSTED VENDORS PAGE -->
   <div id="page-section-tab-vendors" class="page">
-    <button class="back-btn" onclick="showPage('timeline', getNavTab('timeline'))">← Back to Timeline</button>
+    <button class="back-btn" onclick="showPage('dashboard', getNavTab('dashboard'))">← Back to Timeline</button>
     <div class="section-title">Trusted Vendors</div>
 
     <!-- INTRO CARD -->
@@ -1871,7 +1871,7 @@
 
   <!-- CLOSING DAY PAGE -->
   <div id="page-section-tab-closing" class="page">
-    <button class="back-btn" onclick="showPage('timeline', getNavTab('timeline'))">← Back to Timeline</button>
+    <button class="back-btn" onclick="showPage('dashboard', getNavTab('dashboard'))">← Back to Timeline</button>
     <div class="section-title">Closing Day</div>
     <p class="section-subtitle">Everything you need for a smooth closing — documents, checklists, and what to bring.</p>
 
@@ -1980,7 +1980,7 @@
 
   <!-- HOME SEARCH CRITERIA PAGE -->
   <div id="page-section-tab-search" class="page">
-    <button class="back-btn" onclick="showPage('timeline', getNavTab('timeline'))">← Back to Timeline</button>
+    <button class="back-btn" onclick="showPage('dashboard', getNavTab('dashboard'))">← Back to Timeline</button>
     <div class="section-title">Home Search Criteria</div>
     <p class="section-subtitle">Completed by Jason after your buyer consultation — capturing everything that matters in your home search.</p>
 
